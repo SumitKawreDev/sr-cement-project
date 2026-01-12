@@ -1,3 +1,4 @@
+
 // import { useParams } from "react-router-dom"
 // import { useState } from "react"
 // import products from "../data/products"
@@ -37,7 +38,7 @@
 //             {product.name}
 //           </h1>
 
-//           <p className="text-gray-400 mb-4 leading-relaxed transition-all duration-300">
+//           <p className="text-gray-400 mb-4 leading-relaxed">
 //             {showMore
 //               ? product.description
 //               : product.description.slice(0, 120) + "..."}
@@ -50,8 +51,8 @@
 //             {showMore ? "View Less" : "View More"}
 //           </button>
 
-//           {/* SPECIFICATIONS (ONLY WHEN EXISTS + VIEW MORE) */}
-//           {showMore && product.specifications && (
+//           {/* 🔥 SPECIFICATIONS */}
+//           {showMore && product.specifications !== null && (
 //             <div className="glass p-6 mb-8">
 //               <h3 className="text-lg font-semibold mb-4">
 //                 Product Specifications
@@ -66,15 +67,19 @@
 //               </ul>
 
 //               <div className="flex gap-3 mt-4 items-center">
-//                 <span className="text-sm text-gray-400"><b>Colors:</b></span>
+//                 <span className="text-sm text-gray-400">
+//                   <b>Colors:</b>
+//                 </span>
 
 //                 {product.specifications.colors.map((c, i) => (
 //                   <span
 //                     key={i}
 //                     className={`w-6 h-6 rounded-full border border-white/20 ${
-//                       c === "red" ? "bg-red-500"
-//                       : c === "yellow" ? "bg-yellow-400"
-//                       : "bg-gray-400"
+//                       c === "red"
+//                         ? "bg-red-500"
+//                         : c === "yellow"
+//                         ? "bg-yellow-400"
+//                         : "bg-gray-400"
 //                     }`}
 //                   />
 //                 ))}
@@ -104,7 +109,6 @@
 
 
 
-
 import { useParams } from "react-router-dom"
 import { useState } from "react"
 import products from "../data/products"
@@ -113,8 +117,6 @@ import OrderInquiryModal from "../components/OrderInquiryModal"
 export default function ProductDetails() {
   const { id } = useParams()
   const product = products.find(p => p.id === Number(id))
-
-  const [showMore, setShowMore] = useState(false)
   const [openForm, setOpenForm] = useState(false)
 
   if (!product) {
@@ -140,25 +142,17 @@ export default function ProductDetails() {
 
         {/* DETAILS */}
         <div>
-          <h1 className="text-3xl font-bold mb-4">
+          <h1 className="text-3xl font-bold mb-6">
             {product.name}
           </h1>
 
-          <p className="text-gray-400 mb-4 leading-relaxed">
-            {showMore
-              ? product.description
-              : product.description.slice(0, 120) + "..."}
+          {/* FULL DESCRIPTION ALWAYS */}
+          <p className="text-gray-400 mb-8 leading-relaxed">
+            {product.description}
           </p>
 
-          <button
-            onClick={() => setShowMore(!showMore)}
-            className="text-[#3cff78] text-sm mb-6"
-          >
-            {showMore ? "View Less" : "View More"}
-          </button>
-
-          {/* 🔥 SPECIFICATIONS */}
-          {showMore && product.specifications !== null && (
+          {/* SPECIFICATIONS (ONLY IF EXISTS) */}
+          {product.specifications && (
             <div className="glass p-6 mb-8">
               <h3 className="text-lg font-semibold mb-4">
                 Product Specifications
@@ -171,25 +165,6 @@ export default function ProductDetails() {
                 <li><b>100 Sqft:</b> {product.specifications.piecesPer100Sqft}</li>
                 <li><b>Weight:</b> {product.specifications.weight}</li>
               </ul>
-
-              <div className="flex gap-3 mt-4 items-center">
-                <span className="text-sm text-gray-400">
-                  <b>Colors:</b>
-                </span>
-
-                {product.specifications.colors.map((c, i) => (
-                  <span
-                    key={i}
-                    className={`w-6 h-6 rounded-full border border-white/20 ${
-                      c === "red"
-                        ? "bg-red-500"
-                        : c === "yellow"
-                        ? "bg-yellow-400"
-                        : "bg-gray-400"
-                    }`}
-                  />
-                ))}
-              </div>
             </div>
           )}
 

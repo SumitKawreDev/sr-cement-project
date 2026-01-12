@@ -9,23 +9,23 @@ export default function ContactInfo() {
 
       <div className="glass p-5">
         <p className="text-[#3cff78] mb-1">Phone</p>
-        <p className="text-gray-300">+91 98234 56789</p>
+        <p className="text-gray-300">+91 9407271513</p>
       </div>
 
       <div className="glass p-5">
         <p className="text-[#3cff78] mb-1">Email</p>
-        <p className="text-gray-300">info@industrial.com</p>
+        <p className="text-gray-300">srcementbgt@gmail.com</p>
       </div>
 
       <div className="glass p-5">
         <p className="text-[#3cff78] mb-1">WhatsApp</p>
-        <p className="text-gray-300">+91 98234 56789</p>
+        <p className="text-gray-300">+91 9407271513</p>
       </div>
 
       <div className="glass p-5">
         <p className="text-[#3cff78] mb-1">Address</p>
         <p className="text-gray-300">
-          Industrial Area, Balaghat, Madhya Pradesh
+          Suhana Nagar Chakarwahi, Malajkhand
         </p>
       </div>
 
@@ -33,7 +33,7 @@ export default function ContactInfo() {
       <div className="glass p-2">
         <iframe
           title="map"
-          src="https://www.google.com/maps?q=Balaghat%20Madhya%20Pradesh&output=embed"
+          src="https://www.google.com/maps?q=Malajkhand%20Madhya%20Pradesh&output=embed"
           className="w-full h-56 rounded-md border-0"
           loading="lazy"
         ></iframe>

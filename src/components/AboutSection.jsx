@@ -5,14 +5,27 @@ export default function AboutSection() {
       {/* ABOUT TEXT */}
       <div className="max-w-3xl">
         <p className="text-gray-400 leading-relaxed mb-6">
-          We are a trusted industrial manufacturing company with decades of
-          experience delivering durable, high-performance products for
-          demanding industries.
+          At SR CEMENT PRODUCTS, we believe that every strong
+          structure begins with a strong foundation. Established with
+          a vision to deliver durable, reliable, and innovative cement
+          based solutions, we have become a trusted name in the
+          industry.
         </p>
 
         <p className="text-gray-400 leading-relaxed">
-          Our focus is on precision engineering, consistent quality, and
-          long-term reliability that our clients can depend on.
+          With years of experience and modern manufacturing
+          practices, we specialize in producing a wide range of high
+          quality products such as paver blocks, fencing poles, cover
+          blocks, precast boundary walls, fly ash bricks, and many
+          more. Our products are designed to meet the highest
+          standards of strength, precision, and sustainability.
+        </p>
+
+        <p className="text-gray-400 leading-relaxed">
+          At SR CEMENT PRODUCTS, we don’t just manufacture
+          cement items—we create solutions that add value to every
+          project. Whether it’s residential, commercial, or industrial,
+          we are here to help you “Make a Concrete Decision.”
         </p>
       </div>
 

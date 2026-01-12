@@ -36,7 +36,7 @@ const products = [
     id: 3,
     slug: "chequered-tiles",
     name: "Chequered Tiles",
-    image: "/products/chequered-tiles.png",
+    image: "/products/chequered-tiles.jpg",
     shortDescription:
       "Durable chequered tiles designed for industrial and outdoor flooring.",
     description:
