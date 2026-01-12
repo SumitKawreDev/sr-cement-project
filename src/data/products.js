@@ -91,7 +91,7 @@ const products = [
     id: 8,
     slug: "rcc-door-frame",
     name: "RCC Door Frame",
-    image: "/products/rcc-door-frame.png",
+    image: "/products/rcc-door-frame.jpg",
     shortDescription:
       "Precast RCC door frames with high strength and durability.",
     description:
@@ -102,7 +102,7 @@ const products = [
     id: 9,
     slug: "rcc-garden-chair",
     name: "RCC Garden Chair",
-    image: "/products/rcc-garden-chair.png",
+    image: "/products/rcc-garden-chair.jpg",
     shortDescription:
       "Heavy-duty RCC garden chairs for parks and open spaces.",
     description:
@@ -113,7 +113,7 @@ const products = [
     id: 10,
     slug: "rcc-bench",
     name: "RCC Bench",
-    image: "/products/rcc-bench.png",
+    image: "/products/rcc-bench.jpg",
     shortDescription:
       "Concrete benches for public seating and outdoor use.",
     description:
@@ -124,7 +124,7 @@ const products = [
     id: 11,
     slug: "plotting-pole",
     name: "Plotting Pole",
-    image: "/products/plotting-pole.png",
+    image: "/products/plotting-pole.jpg",
     shortDescription:
       "Concrete plotting poles for land marking and layout planning.",
     description:

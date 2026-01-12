@@ -71,11 +71,11 @@ export default function Footer() {
             </li>
 
             <li className="flex items-center gap-2">
-              📞 <span>+91 XXXXX XXXXX</span>
+              📞 <span>+91 9407271513</span>
             </li>
 
             <li className="flex items-center gap-2">
-              ✉️ <span>info@srcement.com</span>
+              ✉️ <span>srcementbgt@gmail.com</span>
             </li>
           </ul>
         </div>
