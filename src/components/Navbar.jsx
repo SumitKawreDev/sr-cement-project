@@ -92,29 +92,3 @@ export default function Navbar() {
     </>
   )
 }
-
-
-
-
-// import { Link } from "react-router-dom";
-
-// export default function Navbar() {
-//   return (
-//     <header className="fixed top-0 left-0 w-full h-20 bg-black/80 backdrop-blur z-50 border-b border-white/10">
-//       <div className="max-w-7xl mx-auto px-6 h-full flex items-center justify-between">
-
-//         <Link to="/" className="flex items-center gap-3">
-//           <img src="/logo.png" className="h-10 w-auto" />
-//           <span className="font-bold text-lg">SR CEMENT</span>
-//         </Link>
-
-//         <nav className="hidden md:flex gap-8 text-sm">
-//           <Link to="/">Home</Link>
-//           <Link to="/products">Products</Link>
-//           <Link to="/about">About</Link>
-//           <Link to="/contact">Contact</Link>
-//         </nav>
-//       </div>
-//     </header>
-//   );
-// }
