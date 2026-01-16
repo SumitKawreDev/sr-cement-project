@@ -44,7 +44,7 @@
 import products from "../data/products";
 import { Link } from "react-router-dom";
 
-export default function Products() {
+export default function Product() {
   return (
     <main className="max-w-7xl mx-auto px-6 pt-40 pb-32">
       <h1 className="text-4xl font-bold mb-12">

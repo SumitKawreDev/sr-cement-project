@@ -135,7 +135,7 @@ const products = [
     id: 12,
     slug: "tree-guard",
     name: "Tree Guard",
-    image: "/products/tree-guard.png",
+    image: "/products/tree-guard.jpg",
     shortDescription:
       "Protective RCC tree guards for plantations and landscaping.",
     description:
@@ -146,34 +146,244 @@ const products = [
     id: 13,
     slug: "ventilation-block",
     name: "Ventilation Block",
-    image: "/products/ventilation-block.png",
+    image: "/products/ventilation-block.jpg",
     shortDescription:
       "Concrete ventilation blocks for airflow and aesthetics.",
     description:
       "Ventilation blocks are concrete blocks designed to allow air circulation while maintaining privacy. They are commonly used in residential, commercial, and industrial buildings.",
     specifications: null
   },
-  { id: 14, name: "RCC Windows Frame", image: "/products/rcc-windows-frame.png" },
-  { id: 15, name: "Curb Stone", image: "/products/curb-stone.png" },
-  { id: 16, name: "RCC Water Tank", image: "/products/rcc-water-tank.png" },
-  { id: 17, name: "Dragon Fruit Pole And Ring", image: "/products/dragon-fruit-pole-and-ring.png" },
-  { id: 18, name: "RCC Guard Stone", image: "/products/rcc-guard-stone.png" },
-  { id: 19, name: "RCC KM Stone", image: "/products/rcc-km-stone.png" },
-  { id: 20, name: "5 KM Stone", image: "/products/5-km-stone.png" },
-  { id: 21, name: "RCC Point Stone", image: "/products/rcc-point-stone.png" },
-  { id: 22, name: "Flower Pot", image: "/products/flower-pot.png" },
-  { id: 23, name: "Tulsi Pot", image: "/products/tulsi-pot.png" },
-  { id: 24, name: "Cement Jali", image: "/products/cement-jali.png" },
-  { id: 25, name: "Barbed Wire", image: "/products/barbed-wire.png" },
-  { id: 26, name: "Fencing Jali", image: "/products/fencing-jali.png" },
-  { id: 27, name: "RCC Dustbin", image: "/products/rcc-dustbin.png" },
-  { id: 28, name: "RCC Forest Board", image: "/products/rcc-forest-board.png" },
-  { id: 29, name: "RCC Drain Cover Slab", image: "/products/rcc-drain-cover-slab.png" },
-  { id: 30, name: "RCC Manhole Cover", image: "/products/rcc-manhole-cover.png" },
-  { id: 31, name: "RCC Stand Pole", image: "/products/rcc-stand-pole.png" },
-  { id: 32, name: "U Drain", image: "/products/u-drain.png" },
-  { id: 33, name: "RCC Chulha", image: "/products/rcc-chulha.png" },
-  { id: 34, name: "RCC Readymade Toilet", image: "/products/rcc-readymade-toilet.png" }
+  {
+  id: 14,
+  slug: "rcc-windows-frame",
+  name: "RCC Windows Frame",
+  image: "/products/rcc-windows-frame.jpg",
+  shortDescription:
+    "Durable RCC window frames for residential and commercial buildings.",
+  description:
+    "RCC window frames are precast concrete frames designed to provide long-lasting strength, weather resistance, and low maintenance. Suitable for residential, commercial, and industrial construction.",
+  specifications: null
+},
+  {
+  id: 15,
+  slug: "curb-stone",
+  name: "Curb Stone",
+  image: "/products/curb-stone.jpg",
+  shortDescription:
+    "Concrete curb stones for road edges and landscaping projects.",
+  description:
+    "Curb stones define road edges, footpaths, and landscaped areas, improving safety, drainage control, and durability in infrastructure projects.",
+  specifications: null
+},
+  {
+  id: 16,
+  slug: "rcc-water-tank",
+  name: "RCC Water Tank",
+  image: "/products/rcc-water-tank.jpg",
+  shortDescription:
+    "High-strength RCC water tanks for long-term water storage.",
+  description:
+    "RCC water tanks are engineered for safe and durable water storage with high load-bearing strength, leak resistance, and long service life.",
+  specifications: null
+},
+  {
+  id: 17,
+  slug: "dragon-fruit-pole-and-ring",
+  name: "Dragon Fruit Pole And Ring",
+  image: "/products/dragon-fruit-pole-and-ring.jpg",
+  shortDescription:
+    "RCC poles and rings designed for dragon fruit farming support.",
+  description:
+    "Manufactured using high-quality RCC, these poles and rings provide strong, stable support required for long-term dragon fruit cultivation.",
+  specifications: null
+},
+  {
+  id: 18,
+  slug: "rcc-guard-stone",
+  name: "RCC Guard Stone",
+  image: "/products/rcc-guard-stone.jpg",
+  shortDescription:
+    "RCC guard stones for roadside safety and traffic guidance.",
+  description:
+    "Installed along highways and roads to guide traffic and enhance safety, offering durability and weather resistance.",
+  specifications: null
+},
+  {
+  id: 19,
+  slug: "rcc-km-stone",
+  name: "RCC KM Stone",
+  image: "/products/rcc-km-stone.jpg",
+  shortDescription:
+    "Concrete kilometer stones for road distance marking.",
+  description:
+    "Used on highways and roads to indicate distance information with high visibility and long-lasting outdoor performance.",
+  specifications: null
+},
+  {
+  id: 20,
+  slug: "five-km-stone",
+  name: "5 KM Stone",
+  image: "/products/5-km-stone.jpg",
+  shortDescription:
+    "Concrete distance stones used in highway infrastructure.",
+  description:
+    "Installed at intervals on highways and major roads to mark distances, ensuring durability and visibility.",
+  specifications: null
+},
+  {
+  id: 21,
+  slug: "rcc-point-stone",
+  name: "RCC Point Stone",
+  image: "/products/rcc-point-stone.jpg",
+  shortDescription:
+    "Concrete point stones for land boundary marking.",
+  description:
+    "Used for marking land boundaries and reference points in surveying and construction with long-term durability.",
+  specifications: null
+},
+  {
+  id: 22,
+  slug: "flower-pot",
+  name: "Flower Pot",
+  image: "/products/flower-pot.jpg",
+  shortDescription:
+    "Decorative concrete flower pots for gardens and landscaping.",
+  description:
+    "Suitable for homes, parks, and commercial landscaping, combining durability with aesthetic design.",
+  specifications: null
+},
+  {
+  id: 23,
+  slug: "tulsi-pot",
+  name: "Tulsi Pot",
+  image: "/products/tulsi-pot.jpg",
+  shortDescription:
+    "Traditional RCC tulsi pots with durable design.",
+  description:
+    "Designed for traditional and religious use, offering long-lasting strength and weather resistance.",
+  specifications: null
+},
+  {
+  id: 24,
+  slug: "cement-jali",
+  name: "Cement Jali",
+  image: "/products/cement-jali.jpg",
+  shortDescription:
+    "Decorative cement jali blocks for ventilation and partitions.",
+  description:
+    "Allows airflow while enhancing architectural appearance and privacy in residential and commercial buildings.",
+  specifications: null
+},
+  {
+  id: 25,
+  slug: "barbed-wire",
+  name: "Barbed Wire",
+  image: "/products/barbed-wire.jpg",
+  shortDescription:
+    "High-quality barbed wire for agricultural and industrial fencing.",
+  description:
+    "Provides strong boundary protection for farms, industrial areas, and restricted zones with long-term durability.",
+  specifications: null
+},
+  {
+  id: 26,
+  slug: "fencing-jali",
+  name: "Fencing Jali",
+  image: "/products/fencing-jali.jpg",
+  shortDescription:
+    "Concrete fencing jali for secure boundary protection.",
+  description:
+    "Used to secure residential, industrial, and agricultural boundaries with strength and visibility.",
+  specifications: null
+},
+  {
+  id: 27,
+  slug: "rcc-dustbin",
+  name: "RCC Dustbin",
+  image: "/products/rcc-dustbin.jpg",
+  shortDescription:
+    "Heavy-duty RCC dustbins for public and industrial waste management.",
+  description:
+    "Designed for municipalities and industrial areas, offering durability, capacity, and weather resistance.",
+  specifications: null
+},
+  {
+  id: 28,
+  slug: "rcc-forest-board",
+  name: "RCC Forest Board",
+  image: "/products/rcc-forest-board.jpg",
+  shortDescription:
+    "Concrete forest boards for signage and information display.",
+  description:
+    "Used in forest areas and public locations to display information with durability for outdoor conditions.",
+  specifications: null
+},
+  {
+  id: 29,
+  slug: "rcc-drain-cover-slab",
+  name: "RCC Drain Cover Slab",
+  image: "/products/rcc-drain-cover-slab.jpg",
+  shortDescription:
+    "Strong RCC drain cover slabs for drainage systems.",
+  description:
+    "Covers open drains and channels, providing safety, load-bearing strength, and durability.",
+  specifications: null
+},
+  {
+  id: 30,
+  slug: "rcc-manhole-cover",
+  name: "RCC Manhole Cover",
+  image: "/products/rcc-manhole-cover.jpg",
+  shortDescription:
+    "Durable RCC manhole covers for underground utilities.",
+  description:
+    "Protects underground drainage and sewer systems with high strength and wear resistance.",
+  specifications: null
+},
+  {
+  id: 31,
+  slug: "rcc-stand-pole",
+  name: "RCC Stand Pole",
+  image: "/products/rcc-stand-pole.jpg",
+  shortDescription:
+    "Concrete stand poles for signage and utility installations.",
+  description:
+    "Used for signboards, lighting, and utilities, offering stability and long service life.",
+  specifications: null
+},
+  {
+  id: 32,
+  slug: "u-drain",
+  name: "U Drain",
+  image: "/products/u-drain.jpg",
+  shortDescription:
+    "Precast U-drains for efficient water drainage systems.",
+  description:
+    "Ensures smooth water flow in urban, industrial, and infrastructure projects with durable performance.",
+  specifications: null
+},
+  {
+  id: 33,
+  slug: "rcc-chulha",
+  name: "RCC Chulha",
+  image: "/products/rcc-chulha.jpg",
+  shortDescription:
+    "Traditional RCC chulha for rural and outdoor cooking.",
+  description:
+    "Heat-resistant concrete cooking platform suitable for rural households and outdoor kitchens.",
+  specifications: null
+},
+  {
+  id: 34,
+  slug: "rcc-readymade-toilet",
+  name: "RCC Readymade Toilet",
+  image: "/products/rcc-readymade-toilet.jpg",
+  shortDescription:
+    "Precast RCC readymade toilets for public and site use.",
+  description:
+    "Prefabricated concrete toilet units for public places and construction sites, offering quick installation and durability.",
+  specifications: null
+},
 ]
 
 export default products

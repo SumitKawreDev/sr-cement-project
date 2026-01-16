@@ -9,6 +9,12 @@ body {
   @apply bg-[#0a0f0d] text-gray-200 antialiased;
 }
 
+
+/* body {
+  @apply bg-[#0a0f0d] text-gray-200 antialiased;
+  overflow-x: hidden;
+} */
+
 /* --------------------
    GLASSMORPHISM
 --------------------- */
