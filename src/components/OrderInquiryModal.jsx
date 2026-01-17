@@ -171,7 +171,7 @@ Required in: ${form.duration} days
 Message: ${form.message}
 `;
 
-    const url = `https://wa.me/919876543210?text=${encodeURIComponent(text)}`;
+    const url = `https://wa.me/919407271513?text=${encodeURIComponent(text)}`;
 
     // IMPORTANT: mark intent BEFORE redirect
     setWaitingForWhatsApp(true);
