@@ -2,7 +2,7 @@ const products = [
   {
     id: 1,
     name: "Fly Ash Bricks",
-    image: "/products/fly-ash-bricks.png",
+    image: "/products/fly-ash-bricks.jpg",
 
     shortDescription:
       "Eco-friendly fly ash bricks with high compressive strength.",
@@ -47,7 +47,7 @@ const products = [
     id: 4,
     slug: "precast-wall",
     name: "Precast Wall",
-    image: "/products/precast-wall.png",
+    image: "/products/precast-wall.jpg",
     shortDescription:
       "Strong precast concrete wall panels for boundary and enclosure use.",
     description:
@@ -58,7 +58,7 @@ const products = [
     id: 5,
     slug: "cover-block",
     name: "Cover Block",
-    image: "/products/cover-block.png",
+    image: "/products/cover-block.jpg",
     shortDescription:
       "Concrete cover blocks for accurate reinforcement spacing.",
     description:
@@ -69,7 +69,7 @@ const products = [
     id: 6,
     slug: "fencing-pole",
     name: "RCC Fencing Pole",
-    image: "/products/fencing-pole.png",
+    image: "/products/fencing-pole.jpg",
     shortDescription:
       "High-strength RCC fencing poles for agricultural and industrial fencing.",
     description:
@@ -80,7 +80,7 @@ const products = [
     id: 7,
     slug: "rcc-y-pole",
     name: "RCC Y Pole",
-    image: "/products/rcc-y-pole.png",
+    image: "/products/rcc-y-pole.jpg",
     shortDescription:
       "Durable RCC Y poles for fencing and boundary marking.",
     description:
