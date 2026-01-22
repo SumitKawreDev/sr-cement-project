@@ -197,17 +197,17 @@
 import { Link, useLocation } from "react-router-dom";
 
 export default function Footer() {
-  const location = useLocation();
+  // const location = useLocation();
 
-  const handleFooterClick = (path) => {
-    if (location.pathname === path) {
-      // Same page → refresh + top
-      window.location.reload();
-    } else {
-      // New page → top
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    }
-  };
+  // const handleFooterClick = (path) => {
+  //   if (location.pathname === path) {
+  //     // Same page → refresh + top
+  //     window.location.reload();
+  //   } else {
+  //     // New page → top
+  //     window.scrollTo({ top: 0, behavior: "smooth" });
+  //   }
+  // };
 
   return (
     <footer className="bg-[#0e1110] border-t border-white/10 mt-32">
