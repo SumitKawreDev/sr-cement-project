@@ -21,7 +21,7 @@ export default function WhyChooseUs() {
   return (
     <section className="py-2">
       <h2 className="text-4xl font-bold mb-12">
-        Why <span className="text-[#3cff78]">Choose Us</span>
+        Why <span className="text-primary">Choose Us</span>
       </h2>
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

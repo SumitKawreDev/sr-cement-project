@@ -271,7 +271,7 @@ ${form.message || "N/A"}
       {!showThankYou ? (
         <>
           <h2 className="text-2xl font-semibold mb-8">
-            Send <span className="text-[#3cff78]">Inquiry</span>
+            Send <span className="text-primary">Inquiry</span>
           </h2>
 
           <form onSubmit={handleSubmit} className="space-y-5">
@@ -339,7 +339,7 @@ ${form.message || "N/A"}
             </button>
 
             <div className="text-center py-12">
-              <h3 className="text-2xl font-bold text-[#3cff78] mb-4">
+              <h3 className="text-2xl font-bold text-primary mb-4">
                 Thank You!
               </h3>
               <p className="text-gray-400 mb-6">

@@ -14,7 +14,7 @@ export default function Industries() {
 
         {/* HEADING */}
         <h2 className="text-4xl font-bold mb-12">
-          Industries <span className="text-[#3cff78]">We Serve</span>
+          Industries <span className="text-primary">We Serve</span>
         </h2>
 
         {/* GRID */}

@@ -10,7 +10,7 @@ export default function PremiumBanner() {
       <div className="absolute inset-0 bg-black/70 flex items-center">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-4xl font-bold mb-4">
-            Built With <span className="text-[#3cff78]">Industrial Strength</span>
+            Built With <span className="text-primary">Industrial Strength</span>
           </h2>
 
           <p className="text-gray-300 max-w-2xl leading-relaxed">

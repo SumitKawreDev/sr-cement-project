@@ -8,22 +8,22 @@ export default function ContactInfo() {
       </p>
 
       <div className="glass p-5">
-        <p className="text-[#3cff78] mb-1">Phone</p>
+        <p className="text-primary mb-1">Phone</p>
         <p className="text-gray-300">+91 9407271513</p>
       </div>
 
       <div className="glass p-5">
-        <p className="text-[#3cff78] mb-1">Email</p>
+        <p className="text-primary mb-1">Email</p>
         <p className="text-gray-300">srcementbgt@gmail.com</p>
       </div>
 
       <div className="glass p-5">
-        <p className="text-[#3cff78] mb-1">WhatsApp</p>
+        <p className="text-primary mb-1">WhatsApp</p>
         <p className="text-gray-300">+91 9407271513</p>
       </div>
 
       <div className="glass p-5">
-        <p className="text-[#3cff78] mb-1">Address</p>
+        <p className="text-primary mb-1">Address</p>
         <p className="text-gray-300">
           Suhana Nagar Chakarwahi, Malajkhand
         </p>

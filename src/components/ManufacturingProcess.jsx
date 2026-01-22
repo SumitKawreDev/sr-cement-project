@@ -29,13 +29,13 @@ export default function ManufacturingProcess() {
   return (
     <section className="max-w-7xl mx-auto px-6 py-2">
       <h2 className="text-4xl font-bold mb-16">
-        Our <span className="text-[#3cff78]">Manufacturing Process</span>
+        Our <span className="text-primary">Manufacturing Process</span>
       </h2>
 
       <div className="grid gap-8 md:grid-cols-3">
         {steps.map((step, index) => (
           <div key={index} className="glass glow-hover p-6">
-            <span className="text-[#3cff78] font-bold">
+            <span className="text-primary font-bold">
               Step {index + 1}
             </span>
 

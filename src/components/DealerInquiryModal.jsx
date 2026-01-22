@@ -166,7 +166,7 @@ ${form.message || "N/A"}
         ) : (
           /* THANK YOU */
           <div className="text-center py-10">
-            <h3 className="text-2xl font-bold mb-3 text-[#3cff78]">
+            <h3 className="text-2xl font-bold mb-3 text-primary">
               Thank You!
             </h3>
             <p className="text-gray-400 mb-6">

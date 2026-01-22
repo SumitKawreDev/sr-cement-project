@@ -401,7 +401,7 @@ Message: ${form.message || "N/A"}
           </>
         ) : (
           <div className="text-center py-10">
-            <h3 className="text-2xl font-bold text-[#3cff78]">Thank You!</h3>
+            <h3 className="text-2xl font-bold text-primary">Thank You!</h3>
             <p className="text-gray-400 mt-2">
               Your inquiry has been sent successfully.
             </p>

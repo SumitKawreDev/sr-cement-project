@@ -4,7 +4,7 @@ export default function About() {
   return (
     <main className="max-w-7xl mx-auto px-6 pt-40 pb-32">
       <h1 className="text-4xl font-bold">
-  About <span className="text-[#3cff78]">Us</span>
+  About <span className="text-primary">Us</span>
 </h1>
 
 {/* GREEN ACCENT LINE */}

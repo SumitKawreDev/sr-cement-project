@@ -1,13 +1,13 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 /* --------------------
    GLOBAL BASE STYLES
 --------------------- */
-body {
+/* body {
   @apply bg-[#0a0f0d] text-gray-200 antialiased;
-}
+} */
 
 
 /* body {
@@ -18,42 +18,147 @@ body {
 /* --------------------
    GLASSMORPHISM
 --------------------- */
-.glass {
+/* .glass {
   @apply bg-[rgba(16,22,20,0.65)]
          backdrop-blur-xl
          border border-white/10
          rounded-xl;
-}
+} */
 
 /* --------------------
    BUTTON SYSTEM
 --------------------- */
-.btn-primary {
+/* .btn-primary {
   @apply bg-[#3cff78] text-black px-6 py-3 rounded-md
          shadow-[0_0_25px_rgba(60,255,120,0.45)]
          hover:shadow-[0_0_35px_rgba(60,255,120,0.65)]
          transition-all;
-}
+} */
 
-.btn-secondary {
+/* .btn-secondary {
   @apply border border-white/20 px-6 py-3 rounded-md
          hover:border-[#3cff78] hover:text-[#3cff78]
          transition-all;
-}
+} */
 
 /* --------------------
    CARD HOVER GLOW
 --------------------- */
-.glow-hover {
+/* .glow-hover {
   @apply hover:border-[#3cff78]
          hover:shadow-[0_0_20px_rgba(60,255,120,0.25)]
          transition-all;
-}
+} */
 
 /* --------------------
    INPUT (FOR FORMS)
 --------------------- */
-.input {
+/* .input {
   @apply w-full px-4 py-3 rounded-md bg-black/40 border border-white/10
          outline-none focus:border-[#3cff78];
+} */
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --------------------
+   GLOBAL BASE STYLES
+--------------------- */
+body {
+  background: linear-gradient(
+    180deg,
+    #0f1211 0%,
+    #141817 50%,
+    #1b201e 100%
+  );
+  color: #e5e7eb; /* light cement white */
+  antialiased: true;
+  overflow-x: hidden;
+}
+
+/* --------------------
+   GLASSMORPHISM (PREMIUM)
+--------------------- */
+.glass {
+  background: rgba(255, 255, 255, 0.035);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+}
+
+/* --------------------
+   BUTTON SYSTEM (LOGO BASED)
+--------------------- */
+.btn-primary {
+  background-color: #7a1e2d; /* SR logo burgundy */
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 12px;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+
+.btn-primary:hover {
+  background-color: #8f2435;
+}
+
+.btn-secondary {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #e5e7eb;
+  padding: 0.75rem 1.5rem;
+  border-radius: 12px;
+  transition: all 0.25s ease;
+}
+
+.btn-secondary:hover {
+  border-color: #7a1e2d;
+  color: #7a1e2d;
+}
+
+/* --------------------
+   CARD / PRODUCT HOVER
+--------------------- */
+.glow-hover {
+  transition: all 0.3s ease;
+}
+
+.glow-hover:hover {
+  border-color: rgba(122, 30, 45, 0.6);
+  box-shadow: 0 8px 30px rgba(122, 30, 45, 0.25);
+}
+
+/* --------------------
+   INPUT / FORM SYSTEM
+--------------------- */
+.input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  outline: none;
+  transition: border 0.25s ease;
+}
+
+.input::placeholder {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.input:focus {
+  border-color: #7a1e2d;
+}
+
+/* --------------------
+   TEXT UTILITIES
+--------------------- */
+.text-brand {
+  color: #7a1e2d;
+}
+
+.text-muted {
+  color: #9ca3af;
 }
