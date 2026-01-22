@@ -163,19 +163,19 @@ import DealerInquiryModal from "./DealerInquiryModal"
 export default function Navbar() {
   const [open, setOpen] = useState(false)
   const [openDealer, setOpenDealer] = useState(false)
-  const location = useLocation()
+  // const location = useLocation()
 
-  const handleNavClick = (path) => {
-    setOpen(false)
+  // const handleNavClick = (path) => {
+  //   setOpen(false)
 
-    if (location.pathname === path) {
-      // same page → refresh + top
-      window.location.reload()
-    } else {
-      // new page → scroll top
-      window.scrollTo({ top: 0, behavior: "smooth" })
-    }
-  }
+  //   if (location.pathname === path) {
+  //     // same page → refresh + top
+  //     window.location.reload()
+  //   } else {
+  //     // new page → scroll top
+  //     window.scrollTo({ top: 0, behavior: "smooth" })
+  //   }
+  // }
 
   return (
     <>
