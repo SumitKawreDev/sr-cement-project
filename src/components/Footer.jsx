@@ -114,6 +114,7 @@
 import { useLocation, useNavigate } from "react-router-dom";
 
 export default function Footer() {
+<<<<<<< HEAD
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -131,6 +132,19 @@ export default function Footer() {
       }, 50);
     }
   };
+=======
+  // const location = useLocation();
+
+  // const handleFooterClick = (path) => {
+  //   if (location.pathname === path) {
+  //     // Same page → refresh + top
+  //     window.location.reload();
+  //   } else {
+  //     // New page → top
+  //     window.scrollTo({ top: 0, behavior: "smooth" });
+  //   }
+  // };
+>>>>>>> 8d4f31ebe8998eaaf89714b781329ea427bc95d0
 
   return (
     // <footer className="bg-bg border-t border-border mt-32">

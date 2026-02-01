@@ -158,6 +158,7 @@ import DealerInquiryModal from "./DealerInquiryModal"
 export default function Navbar() {
   const [open, setOpen] = useState(false)
   const [openDealer, setOpenDealer] = useState(false)
+<<<<<<< HEAD
 
   const location = useLocation()
   const navigate = useNavigate()
@@ -178,6 +179,21 @@ export default function Navbar() {
       }, 50)
     }
   }
+=======
+  // const location = useLocation()
+
+  // const handleNavClick = (path) => {
+  //   setOpen(false)
+
+  //   if (location.pathname === path) {
+  //     // same page → refresh + top
+  //     window.location.reload()
+  //   } else {
+  //     // new page → scroll top
+  //     window.scrollTo({ top: 0, behavior: "smooth" })
+  //   }
+  // }
+>>>>>>> 8d4f31ebe8998eaaf89714b781329ea427bc95d0
 
   return (
     <>
