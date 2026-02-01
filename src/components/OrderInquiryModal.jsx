@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react"
 
 export default function OrderInquiryModal({ productName, onClose }) {
@@ -100,14 +99,14 @@ Message: ${form.message || "N/A"}
                 onChange={handleChange}
               />
 
-              {error && <p className="text-red-400 text-sm">{error}</p>}
+              {error && <p className="text-red-700 text-sm">{error}</p>}
 
               <button onClick={handleSend} className="btn-primary w-full">
                 Send
               </button>
 
               {waitingForWhatsApp && (
-                <p className="text-sm text-gray-400 text-center">
+                <p className="text-sm text-gray-700 text-center">
                   Please complete sending on WhatsApp…
                 </p>
               )}
@@ -116,7 +115,7 @@ Message: ${form.message || "N/A"}
         ) : (
           <div className="text-center py-10">
             <h3 className="text-2xl font-bold text-primary">Thank You!</h3>
-            <p className="text-gray-400 mt-2">
+            <p className="text-gray-700 font-semibold mt-2">
               Your inquiry has been sent successfully.
             </p>
             <button onClick={onClose} className="btn-primary mt-6">
