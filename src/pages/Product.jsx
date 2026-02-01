@@ -10,7 +10,7 @@ export default function Product() {
       </h1>
 
       {products.length === 0 ? (
-        <p className="text-gray-400">No products available</p>
+        <p className="text-gray-700">No products available</p>
       ) : (
         <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {products.map((product) => (
@@ -29,7 +29,7 @@ export default function Product() {
                 {product.name}
               </h3>
 
-              <p className="text-sm text-gray-400">
+              <p className=" font-semibold text-sm text-gray-700">
                 {product.shortDescription}
               </p>
             </Link>

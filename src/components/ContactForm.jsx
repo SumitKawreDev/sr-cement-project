@@ -107,7 +107,7 @@ ${form.message || "N/A"}
             />
 
             {error && (
-              <p className="text-red-400 text-sm">
+              <p className="text-red-700 text-sm">
                 {error}
               </p>
             )}
@@ -117,7 +117,7 @@ ${form.message || "N/A"}
             </button>
 
             {waitingForWhatsApp && (
-              <p className="text-sm text-gray-400 text-center">
+              <p className="text-sm text-gray-700 text-center">
                 Please complete sending the message on WhatsApp…
               </p>
             )}
@@ -129,7 +129,7 @@ ${form.message || "N/A"}
             {/* CLOSE */}
             <button
               onClick={() => setShowThankYou(false)}
-              className="absolute top-3 right-3 text-gray-400 hover:text-white"
+              className="absolute top-3 right-3 text-gray-700 hover:text-white"
             >
               ✕
             </button>
@@ -138,7 +138,7 @@ ${form.message || "N/A"}
               <h3 className="text-2xl font-bold text-primary mb-4">
                 Thank You!
               </h3>
-              <p className="text-gray-400 mb-6">
+              <p className="text-gray-700 mb-6">
                 Your inquiry has been sent successfully.
               </p>
               <button

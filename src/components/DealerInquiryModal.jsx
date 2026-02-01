@@ -84,7 +84,7 @@ ${form.message || "N/A"}
         {/* CLOSE */}
         <button
           onClick={onClose}
-          className="absolute top-3 right-3 text-gray-400 hover:text-white"
+          className="absolute top-3 right-3 text-gray-700 hover:text-white"
         >
           ✕
         </button>
@@ -144,7 +144,7 @@ ${form.message || "N/A"}
               />
 
               {error && (
-                <p className="text-red-400 text-sm text-center">
+                <p className="text-red-700 text-sm text-center">
                   {error}
                 </p>
               )}
@@ -157,7 +157,7 @@ ${form.message || "N/A"}
               </button>
 
               {waitingForWhatsApp && (
-                <p className="text-sm text-gray-400 text-center mt-2">
+                <p className="text-sm text-gray-700 text-center mt-2">
                   Please complete sending the message on WhatsApp…
                 </p>
               )}
@@ -169,7 +169,7 @@ ${form.message || "N/A"}
             <h3 className="text-2xl font-bold mb-3 text-primary">
               Thank You!
             </h3>
-            <p className="text-gray-400 mb-6">
+            <p className="text-gray-700 mb-6">
               Your dealer inquiry has been sent successfully.
             </p>
             <button

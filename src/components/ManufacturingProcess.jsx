@@ -43,7 +43,7 @@ export default function ManufacturingProcess() {
               {step.title}
             </h3>
 
-            <p className="text-gray-400 leading-relaxed">
+            <p className="text-gray-600 font-semibold leading-relaxed">
               {step.desc}
             </p>
           </div>

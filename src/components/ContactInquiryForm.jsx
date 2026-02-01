@@ -96,7 +96,7 @@ ${form.message}
             />
 
             {error && (
-              <p className="text-red-400 text-sm">
+              <p className="text-red-700 text-sm">
                 {error}
               </p>
             )}
@@ -109,7 +109,7 @@ ${form.message}
             </button>
 
             {waitingForWhatsApp && (
-              <p className="text-sm text-gray-400 text-center mt-2">
+              <p className="text-sm text-gray-700 text-center mt-2">
                 Please complete sending the message on WhatsApp…
               </p>
             )}
@@ -120,7 +120,7 @@ ${form.message}
           <h3 className="text-2xl font-bold text-[#3cff78] mb-3">
             Thank You!
           </h3>
-          <p className="text-gray-400 mb-6">
+          <p className="text-gray-700 mb-6">
             Your inquiry has been sent successfully.
           </p>
           <button
